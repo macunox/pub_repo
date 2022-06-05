@@ -1,5 +1,5 @@
 # .......Author: macunox
-# .......Description: Testing in Python 3.10.2
+# .......Python Version: 3.10.2
 # .......Date: 5 June 2022
 
 # --------------Import Block
