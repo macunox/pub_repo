@@ -10,8 +10,8 @@ from random import randrange
 
 
 def display_board(board):
-# The function accepts one parameter containing the board's current status
-# and prints it out to the console.
+    # The function accepts one parameter containing the board's current status
+    # and prints it out to the console.
 
     # Board construct
     for i in board:
@@ -21,8 +21,8 @@ def display_board(board):
 
 
 def enter_move(board):
-# The function accepts the board's current status, asks the user about their move,
-# checks the input, and updates the board according to the user's decision.
+    # The function accepts the board's current status, asks the user about their move,
+    # checks the input, and updates the board according to the user's decision.
 
     board_status = make_list_of_free_fields(board)
 
@@ -51,14 +51,16 @@ def enter_move(board):
         else:
             print("[!] input not int")
 
-        print(f"[!] Please select a free field")
+        if free_fields is True:
+            print(f"[!] Please select a free field")
+
 
     return board
 
 
 def make_list_of_free_fields(board):
-# The function browses the board and builds a list of all the free squares;
-# the list consists of tuples, while each tuple is a pair of row and column numbers.
+    # The function browses the board and builds a list of all the free squares;
+    # the list consists of tuples, while each tuple is a pair of row and column numbers.
 
     # list for free Fields
     free_squares = []
@@ -76,8 +78,8 @@ def make_list_of_free_fields(board):
 
 
 def victory_for(board, sign):
-# The function analyzes the board's status in order to check if
-# the player using 'O's or 'X's has won the game
+    # The function analyzes the board's status in order to check if
+    # the player using 'O's or 'X's has won the game
 
     cross_right = False
     cross_left = False
@@ -120,7 +122,7 @@ def victory_for(board, sign):
 
 
 def draw_move(board):
-# The function draws the computer's move and updates the board.
+    # The function draws the computer's move and updates the board.
 
     print(f"[!] Computer move...")
     if board[1][1] == "X":
