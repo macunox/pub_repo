@@ -1,3 +1,7 @@
+# Tic-Tac-Toe Game
+
+## Starting Game
+
 *******************************************************************************
 
  #######                #######                     #######               
@@ -17,6 +21,6 @@ Board:
 Please press enter to start Game:
 
 
+## Flow Description:
 
-
-![image](https://user-images.githubusercontent.com/6375849/172066549-fd090ad8-2e69-4ae9-8c6b-57d5c5c24970.png)
+![image](https://user-images.githubusercontent.com/6375849/172067715-a8a709c6-4bf2-42e3-8c8f-6329da47e458.png)
